@@ -880,9 +880,9 @@ dependencies = [
 
 [[package]]
 name = "rust8"
-version = "0.2.0"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9b1769d37879bf4859a7711eceab208d6bf91ffc957e57694d4772f4f5582e09"
+checksum = "5904c79d18b94316ffe8418df8e28ca8b7b9b4b7e97d82bd37b1edd3c8a171ab"
 dependencies = [
  "bitvec",
  "num_enum 0.7.2",
