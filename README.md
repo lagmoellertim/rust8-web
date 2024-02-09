@@ -1,46 +1,90 @@
-# Getting Started with Create React App
+<h1 align="center">Rust8 Web</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*<p align="center">A Chip-8 Emulator for the web</p>*
 
-## Available Scripts
+<p align="center">
+  <a href="https://github.com/lagmoellertim/rust8-web/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License Badge"/></a>
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+![](screenshot.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Introduction
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Welcome to **Rust8 Web**, a high-performance online CHIP-8 emulator. This project leverages the power of Rust for the core emulation logic, WebAssembly (WASM) to bring classic CHIP-8 games and applications to the modern web and React to give you a pretty web interface. Rust8 Web is based on [Rust8](https://github.com/lagmoellertim/rust8), a Rust library designed for CHIP-8 emulation. 
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **High Performance**: Written in Rust, rust8 web offers fast and efficient CHIP-8 emulation.
+- **Cross-Platform**: Runs in any modern web browser, making classic CHIP-8 programs accessible on a wide range of devices.
+- **Easy to Use**: Simply load a CHIP-8 ROM and start playing.
+- **Mobile Friendly**: Responsive design for an enjoyable experience on both desktop and mobile devices.
+## Getting Started
 
-### `npm run build`
+To play CHIP-8 games in your browser with rust8 web, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A modern web browser that supports WebAssembly.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running Online
 
-### `npm run eject`
+Visit the [live version](https://lagmoellertim.github.io/rust8-web/) to start playing immediately. No installation required.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Running Locally
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+git clone https://github.com/lagmoellertim/rust8-web.git
+cd rust8-web
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Install dependencies and build the project
 
-## Learn More
+```bash
+npm install
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Start Rust8 Web
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
+
+## How to Use
+- **Load a ROM**: Select a provided ROM from the list or upload your own
+- **Start Playing**: You can use the onscreen keyboard or your real keyboard for controlling the emulator
+- **Pause**: If you want to pause a running game, press the onscreen pause button or hit the space key
+
+## Contributing
+
+If you are missing a feature or have new idea, go for it! That is what open-source is for! 😃
+
+## Author
+
+**Tim-Luca Lagmöller** ([@lagmoellertim](https://github.com/lagmoellertim))
+
+## Donations / Sponsors
+
+I'm part of the official GitHub Sponsors program where you can support me on a monthly basis.
+
+<a href="https://github.com/sponsors/lagmoellertim" target="_blank"><img src="https://github.com/lagmoellertim/shared-repo-files/raw/main/github-sponsors-button.png" alt="GitHub Sponsors" height="35px" ></a>
+
+You can also contribute by buying me a coffee (this is a one-time donation).
+
+<a href="https://ko-fi.com/lagmoellertim" target="_blank"><img src="https://github.com/lagmoellertim/shared-repo-files/raw/main/kofi-sponsors-button.png" alt="Ko-Fi Sponsors" height="35px" ></a>
+
+Thank you for your support!
+
+## License
+
+The Code is licensed under the
+
+[MIT License](https://github.com/lagmoellertim/rust8-web/blob/master/LICENSE)
+
+Copyright © 2024-present, [Tim-Luca Lagmöller](https://lagmoellertim.de)
+
+## Have fun :tada:
