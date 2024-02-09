@@ -1,0 +1,15 @@
+.control-panel {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  gap: 3rem;
+
+  &__button {
+    background-color: palegreen;
+  }
+
+  @media screen and (max-width: "768px") {
+    justify-content: space-between;
+  }
+}

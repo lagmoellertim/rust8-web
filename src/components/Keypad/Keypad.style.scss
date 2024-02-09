@@ -1,0 +1,17 @@
+.keypad {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0rem;
+  background: black;
+  border-radius: 5px;
+
+  &__button {
+    //background:#7fb57f;
+    width: 3.5rem;
+    height: 3.5rem;
+
+    &--numeric {
+      background: lightgreen;
+    }
+  }
+}

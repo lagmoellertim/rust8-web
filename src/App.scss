@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 40px;
+  overflow: hidden;
+
+  @media screen and (max-width: "568px") {
+    padding: 10px;
+  }
+}
+
+.content {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  overflow: scroll;
+  padding: 1rem;
+  gap: 3rem;
+
+  .content__canvas {
+    max-width: 800px;
+    flex: 1;
+
+    > div,
+    .canvas {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: "768px") {
+    flex-direction: column;
+
+    .content__canvas {
+      width: 100%;
+      flex: 0;
+    }
+  }
+}

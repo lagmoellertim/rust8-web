@@ -1,0 +1,44 @@
+.canvas {
+  border-radius: 5px;
+  background-color: black;
+  aspect-ratio: 2/1;
+  image-rendering: pixelated;
+
+  &__frame {
+    padding: 0.5rem;
+    background: palevioletred;
+    transform: translate(-0.4rem, -0.4rem);
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+
+  &__container {
+    position: relative;
+  }
+
+  &__overlay {
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-content {
+      background-color: palevioletred;
+      font-size: 1.3rem;
+      font-weight: bold;
+      padding: 1.5rem;
+      color: white;
+      border-radius: 5px;
+
+      @media screen and (max-width: "768px") {
+        padding: 0.8rem;
+        font-size: 1rem;
+      }
+    }
+  }
+}

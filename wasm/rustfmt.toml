@@ -1,0 +1,6 @@
+use_try_shorthand = true
+use_field_init_shorthand = true
+reorder_impl_items = true
+imports_granularity = "Module"
+group_imports = "StdExternalCrate"
+wrap_comments = true

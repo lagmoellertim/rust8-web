@@ -1,0 +1,36 @@
+.button {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  border: 2px black solid;
+  background-color: palevioletred;
+  color: black;
+  gap: 0.5rem;
+  height: 2.5rem;
+
+  padding: 0.75rem 1.3rem;
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+
+  transform: translate(-4px, -4px);
+  text-overflow: ellipsis;
+
+  &--square {
+    padding: 0;
+    aspect-ratio: 1;
+    overflow: hidden;
+  }
+
+  &--square &__icon-right {
+    aspect-ratio: 1;
+  }
+
+  &:active,
+  &--active {
+    transform: translate(0px, 0px);
+  }
+}
