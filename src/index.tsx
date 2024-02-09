@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
 import App from "./App";
-import init from "wasm-rust8/rust8_wasm";
+import init from "rust8-wasm/rust8_wasm";
 
 console.log(`
 ██████╗ ██╗   ██╗███████╗████████╗ █████╗ 
