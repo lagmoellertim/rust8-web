@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { usePrevious } from "react-use"
 
-import { Chip8 } from "wasm-rust8/rust8_wasm";
+import { Chip8 } from "rust8-wasm/rust8_wasm";
 
 type KeyState = {
     keycode: string;
