@@ -15,7 +15,7 @@ const loadableRoms: { id: string; name: string }[] = [
 export const useRoms = (): Rom[] => {
     const asyncState = useAsync(async (): Promise<Rom[]> => {
         return await Promise.all(loadableRoms.map(async (loadableRom): Promise<Rom> => {
-            const response = await fetch(`/roms/${loadableRom.id}.ch8`);
+            const response = await fetch(`roms/${loadableRom.id}.ch8`);
             const arrayBuffer = await response.arrayBuffer();
             const content = new Uint8Array(arrayBuffer);
 
